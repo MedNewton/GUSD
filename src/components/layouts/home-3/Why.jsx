@@ -28,7 +28,6 @@ const Why = () => {
                     <h5 className="squareTitle">Stability</h5>
                     <p className="squareText">GUSD is a 1 : 1 stablecoin, pegged to the price of USD in a safe andstable
                         pegging system.</p>
-                    <h5 className="squareLearnMore">Learn More</h5>
 
                 </div>
                 <div className="darkSquare">
@@ -42,7 +41,6 @@ const Why = () => {
                     <h5 className="squareTitle">Real value</h5>
                     <p className="squareText">Over collateralization of diamonds that are safe and screened daily to avoid
                         volatile market risks for investors.</p>
-                    <h5 className="squareLearnMore">Learn More</h5>
 
                 </div>
             </div>
@@ -58,7 +56,6 @@ const Why = () => {
                     <h5 className="squareTitle">Safety</h5>
                     <p className="squareText">Anti-flash loan and anti-manipulation stablecoin, screened from other market
                         assets and brokers.</p>
-                    <h5 className="squareLearnMore">Learn More</h5>
 
                 </div>
                 <div className="darkSquare">
@@ -72,7 +69,6 @@ const Why = () => {
                     <h5 className="squareTitle">Fast & Reliable</h5>
                     <p className="squareText">An advanced ecosystem with a super performing infrastructure to keep all your
                         focus on investing actions.</p>
-                    <h5 className="squareLearnMore">Learn More</h5>
 
                 </div>
             </div>

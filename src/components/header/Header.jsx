@@ -30,6 +30,11 @@ const Header = () => {
                     Why GUSD?
                 </h5>
             </AnchorLink>
+            <AnchorLink to={"/buy_gusd"}>
+            <h5 className="navMenuItem">
+                    Buy GUSD
+                </h5>
+            </AnchorLink>
                 
                 <Link to={'/signup'} ><button className="navBtn"><span>Get Started</span></button></Link>
             </div>

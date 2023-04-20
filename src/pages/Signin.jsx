@@ -34,7 +34,7 @@ const Signin = () => {
                         <h5 className='termsLabel'><span>Forgot password ?</span></h5>
                     </div>
                     <div className="btnWrapper">
-                    <Button className="signupBtn">Sign in</Button>
+                    <Link to={"/profile"} style={{width: "100%", marginLeft: "auto", marginRight: "auto", display: "flex"}}><Button className="signupBtn">Sign in</Button></Link>
                     </div>
                     <h5 className="signinLink">You don't have an account? <Link to={'/signup'}><span>Sign up</span></Link></h5>
 

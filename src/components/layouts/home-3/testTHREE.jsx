@@ -1,6 +1,10 @@
 import React, { useRef, useEffect } from 'react';
 import * as THREE from 'three';
 import { Input } from 'semantic-ui-react'
+import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
+import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader';
+import DiamondModel from "../../../assets/diamond.glb"
+
 
 const GridWithCones = () => {
   const containerRef = useRef(null);
@@ -10,6 +14,8 @@ const GridWithCones = () => {
   useEffect(() => {
     // Set up Three.js scene
     const scene = new THREE.Scene();
+
+    const loader = new GLTFLoader();
 
     // Set up camera
     const camera = new THREE.PerspectiveCamera(18, window.innerWidth / (window.innerHeight * 0.5), 0.1, 1000);
@@ -51,6 +57,12 @@ const GridWithCones = () => {
       for (let j = 0; j < cols; j++) {
         const geometry = new THREE.ConeGeometry(coneSize, coneSize, 4, 1, true); // Pass true as the last parameter to create pointed cones
 
+        let diamond;
+        loader.load(DiamondModel, (gltf) => {
+          diamond = gltf.scene;
+          diamond.scale.set(0.1, 0.1, 0.1);
+          scene.add(diamond);
+        });
         // Create color attribute for the geometry
         const colors = [
           new THREE.Color().setHSL(0.3, 1, 0.3 + (j / cols) * 0.4), // Front face
@@ -128,7 +140,7 @@ const GridWithCones = () => {
 
     // Clean up
     return () => {
-      containerRef.current.removeChild(renderer.domElement);
+      //containerRef.current.removeChild(renderer.domElement);
     };
   }, []);
 

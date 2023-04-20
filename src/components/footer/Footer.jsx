@@ -5,7 +5,7 @@ const Footer = () => {
 
     return (
         <footer id="footer">
-            <h5 className="footerCopyrights">© 2023 GATO CHAIN (AED Dubai) Ltd. | All rights reserved</h5>
+            <h5 className="footerCopyrights">© 2023 GATOCHAIN FOUNDATION | DUBAI | All rights reserved</h5>
         </footer>
     );
 }

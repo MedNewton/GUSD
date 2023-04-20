@@ -134,8 +134,6 @@ const News = () => {
                     removeArrowOnDeviceType={["tablet", "mobile"]}
                     dotListClass="custom-dot-list-style"
                     itemClass="carousel-item-padding-40-px"
-                    customRightArrow={<CustomRightArrow />}
-                    customLeftArrow={<CustomLeftArrow />}
                 >
                     {
                         gatoArticles.map((article, index) => {
