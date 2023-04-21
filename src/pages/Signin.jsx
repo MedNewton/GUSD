@@ -10,8 +10,8 @@ const Signin = () => {
     }, [])
     return(
         <div className='home-3' style={{position: "relative"}}>
-            <section id='signupWrapper' className='signInPage'>
-                <div className="signUpLogoWrapper">
+            <section id='signupWrapper' className='signInPage' style={{height: "100vh"}}>
+                <div className="signUpLogoWrapper" onClick={()=>{window.location.href = "/"}} style={{marginBottom: "5vh"}}>
                     <img src={logo} alt="" />
                     <h5>GUSD</h5>
                 </div>

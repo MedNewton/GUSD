@@ -36,7 +36,7 @@ const SwappingBox = props => {
                             <img src={fromCoin.logo} className="swapCoinLogo" alt="" />
                             <span>{fromCoin.name}</span>
                         </Button>
-                        <div className="maxswapIn">50% max</div>
+                        <div className="maxswapIn">MAX</div>
                         <input type="number" id='swapInInput' className='swapInInput' placeholder='0.0' />
 
                     </div>
@@ -49,13 +49,13 @@ const SwappingBox = props => {
                             <img src={toCoin.logo} className="swapCoinLogo" alt="" />
                             <span>{toCoin.name}</span>
                         </Button>
-                        <div className="maxswapIn">50% max</div>
+                        <div className="maxswapIn">MAX</div>
                         <input type="number" id='swapOutInput' className='swapOutInput' placeholder='0.0' readOnly />
 
                     </div>
 
                 </div>
-                <Button className="swapBtn">Approve</Button>
+                <Button className="swapBtn">Connect Wallet</Button>
             </div>
             
         </div>

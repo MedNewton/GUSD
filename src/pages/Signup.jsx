@@ -11,7 +11,7 @@ const Signup = () => {
     return(
         <div className='home-3' style={{position: "relative"}}>
             <section id='signupWrapper'>
-                <div className="signUpLogoWrapper">
+                <div className="signUpLogoWrapper" onClick={()=>{window.location.href = "/"}}>
                     <img src={logo} alt="" />
                     <h5>GUSD</h5>
                 </div>

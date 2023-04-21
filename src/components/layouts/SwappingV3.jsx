@@ -6,8 +6,8 @@ const SwappingV3 = props => {
     console.log(data)
     return(
         <div className='swappingV3GlassBox'>
-            <h5 className="swappingV3BoxTitle">Uniswap V3</h5>
-            <h5 className="swappingV3Data">1 {data[0].from.toString()} = ${data[0].to.toString() + ' ' + data[0].price.toString()}</h5>
+            <h5 className="swappingV3BoxTitle">GATO Swap</h5>
+            <h5 className="swappingV3Data">1 GUSD = $1 {data[0].to.toString()}</h5>
         </div>
     );
 }

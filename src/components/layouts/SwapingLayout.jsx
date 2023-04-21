@@ -9,8 +9,8 @@ import mintingData from '../../assets/fake-data/fakeMintingData'
 const SwappingLayout = props => {
     const swappingV3Value = [
         {
-            price : 1.27,
-            from : "MATIC",
+            price : 1,
+            from : "GUSD",
             to : "USD"
         }
     ];

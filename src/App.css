@@ -26,12 +26,12 @@ section {
   position: relative;
 }
 
-#root > div > div.styles_ticker__-0UvZ > div > div:nth-child(1){
+#root > div > div.styles_ticker__-0UvZ > div > div:nth-child(1) {
   position: relative !important;
   z-index: 999 !important;
 }
 
-#root > div > div.styles_ticker__-0UvZ > div{
+#root > div > div.styles_ticker__-0UvZ > div {
   position: relative !important;
   z-index: 999 !important;
   padding-bottom: 1% !important;
@@ -102,12 +102,12 @@ section {
   }
 }
 
-.header{
+.header {
   position: relative;
   z-index: 999;
 }
 
-.partnersWrapper{
+.partnersWrapper {
   width: 100vw;
   height: 70vh;
   background-color: transparent;
@@ -118,15 +118,13 @@ section {
   box-shadow: #030303 0px -30px 100px 80px;
 }
 
-.partnersWrapper h5{
+.partnersWrapper h5 {
   margin-bottom: 8%;
 }
 
-
-
-.partnersTitle{
+.partnersTitle {
   color: #fff;
-  font-family: 'CircularMedium';
+  font-family: "CircularMedium";
   font-size: 3em;
   margin-left: auto;
   margin-right: auto;
@@ -140,7 +138,7 @@ section {
 
 .bubble {
   background-color: white;
-  
+
   background-size: cover;
   border-radius: 50%;
   box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1), 0 3px 10px rgba(0, 0, 0, 0.1);
@@ -206,7 +204,7 @@ section {
         rgba(0, 19, 9, 0.12) 100%
       )
       /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
-    #002411 !important;
+    #2f2f2f !important;
   box-shadow: inset 0px 3px 4px rgba(0, 0, 0, 0.25) !important;
   border-radius: 50px !important;
   border-width: 0px !important;
@@ -319,9 +317,9 @@ section {
 }
 
 .darkSquare {
-  background: rgba(5, 26, 13, 0.84);
-  backdrop-filter: blur( 2.5px );
-  -webkit-backdrop-filter: blur( 2.5px );
+  background: rgba(10, 54, 27, 0.84);
+  backdrop-filter: blur(2.5px);
+  -webkit-backdrop-filter: blur(2.5px);
   border-radius: 10px;
   border-radius: 20px;
   width: 45%;
@@ -330,6 +328,43 @@ section {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.tickerData {
+  color: #fff !important;
+  font-family: "CircularMedium";
+  opacity: 1 !important;
+  font-size: 1.5em !important;
+  position: relative !important;
+  z-index: 9999 !important;
+  margin-right: 2%;
+}
+
+.styles_tickerStats__7TXcs {
+  display: none !important;
+  height: 0px !important;
+}
+
+.styles_ticker__-0UvZ {
+  height: 5vh !important;
+  background-color: #601d1d !important;
+}
+
+.styles_tickerTopLevel__vRrjN {
+  font-family: "CircularMedium" !important;
+  font-size: 1.2em !important;
+}
+
+.styles_tickerItemFinancial__m6Lt7 {
+  background-color: #2f2f2f !important;
+}
+
+.styles_ticker-list__1JKu- {
+  background-color: #2f2f2f !important;
+}
+
+#root > div > div.styles_ticker__-0UvZ > div {
+  background-color: #2f2f2f !important;
 }
 
 .darkGreen {
@@ -344,8 +379,8 @@ section {
 .docsLink {
   width: fit-content;
   height: fit-content;
-  background-color: #022300;
-  border: solid 2px #041104 !important;
+  background-color: #2f2f2f;
+  border: solid 2px #2f2f2f !important;
   border-radius: 10px;
   padding: 1% 3%;
   margin-left: auto;
@@ -361,7 +396,7 @@ section {
   justify-content: space-evenly;
 }
 
-.docsLink span{
+.docsLink span {
   color: #fff;
   font-family: "CircularMedium";
   font-size: 1em;
@@ -374,7 +409,7 @@ section {
   border-radius: 50%;
 }
 
-.squareIcon:hover{
+.squareIcon:hover {
   box-shadow: 0px 0px 250px 20px #fff;
 }
 
@@ -433,6 +468,7 @@ section {
 
 .howItWorksText {
   font-family: "CircularMedium";
+  font-weight: 400 !important;
   font-size: 3em;
   color: #fff;
   padding-right: 5%;
@@ -442,6 +478,10 @@ section {
   background-color: #1d1f1d;
   padding: 3%;
   border-radius: 20px;
+}
+
+.howText2 {
+  margin-top: 2% !important;
 }
 
 .howItWorksText span {
@@ -629,6 +669,15 @@ section {
   overflow: hidden;
   position: relative;
   z-index: 20;
+}
+
+.greenShadow {
+  width: 100vw !important;
+  height: 0vh;
+  background-color: #a9ffae;
+  box-shadow: 10px 0px 100px 5px #a9ffae;
+  position: relative;
+  z-index: 9999;
 }
 
 .circlesWrapper {
@@ -987,7 +1036,6 @@ section {
 .carousel-container {
   height: 100% !important;
   padding-top: 1%;
-  
 }
 
 .article {
@@ -1013,7 +1061,7 @@ section {
 }
 
 .articleDataContainer {
-  background-color: #00180b;
+  background-color: rgba(10, 54, 27, 0.84);
   padding: 5% 3%;
   height: 50%;
   border-bottom-left-radius: 20px;
@@ -1096,7 +1144,7 @@ section {
 }
 
 .signUpFormWrapper {
-  background: #f1f1f1;
+  background: #242424;
   border-radius: 15px;
   width: 70vw;
   height: fit-content;
@@ -1104,6 +1152,7 @@ section {
   margin-right: auto;
   margin-top: 3%;
   padding: 5% 2%;
+  box-shadow: 0px 0px 2px 20px #2424248f;
 }
 
 .formTitle {
@@ -1111,7 +1160,7 @@ section {
   margin-right: auto;
   font-family: "CircularMedium";
   font-size: 3em;
-  color: #0a3f20;
+  color: #fff;
   text-align: center;
   margin-bottom: 5%;
 }
@@ -1136,7 +1185,7 @@ section {
 
 .formLabel {
   font-family: "CircularMedium";
-  color: #0a3f20;
+  color: #fff;
   font-size: 1.5em;
   margin-bottom: 5%;
   max-width: none !important;
@@ -1145,10 +1194,10 @@ section {
 .formItem input {
   max-width: none;
   width: 100% !important;
-  border: solid 1px #0a3f20 !important;
+  border: solid 1px #fff !important;
   font-family: "CircularMedium";
   font-weight: 500;
-  color: #0a3f20;
+  color: #fff;
 }
 
 .termsWrapper {
@@ -1161,14 +1210,14 @@ section {
 
 .termsWrapper input {
   background-color: transparent;
-  border: solid 1px #0a3f20;
+  border: solid 1px #fff;
 }
 
 .termsLabel {
   font-family: "CircularMedium";
   font-size: 1.3em;
   font-weight: 500;
-  color: #0a3f20;
+  color: #fff;
 }
 
 .termsLabel span {
@@ -1204,7 +1253,7 @@ section {
   font-family: "CircularMedium";
   font-size: 1.5em;
   font-weight: 500;
-  color: #0a3f20;
+  color: #fff;
   margin-left: auto;
   margin-right: auto;
   width: 100%;
@@ -1244,11 +1293,11 @@ section {
 }
 
 .swappingPageContainer {
-  width: 100vw;
+  width: 100%;
   height: 100vw;
   max-height: 100vh;
   max-width: 100vw;
-  
+
   background-position: left 70%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1265,7 +1314,7 @@ section {
   transform: translate(-50%, -50%);
   width: 30vw;
   height: fit-content;
-  
+
   z-index: 99;
   padding: 0px !important;
   margin: 0px !important;
@@ -1282,20 +1331,19 @@ section {
   display: flex !important;
   flex-wrap: wrap !important;
   align-content: flex-start !important;
-
 }
 
 .mintingGlassBox {
   width: 100%;
   height: fit-content;
   margin: 0px !important;
-  background: #f1f1f1;
+  background: #0a3f20;
   border-radius: 10px;
   z-index: 90;
 }
 
 .swapInBox {
-  border: 1px solid #0a3f20;
+  border: 1px solid #fff;
   border-radius: 7px;
   height: fit-content;
   padding: 2% 2%;
@@ -1303,8 +1351,8 @@ section {
 }
 
 .swapInBoxTitle {
-  color: #0a3f20;
-  font-family: 'CircularMedium';
+  color: #fff;
+  font-family: "CircularMedium";
   font-size: 1.5em;
   margin-bottom: 3%;
 }
@@ -1314,105 +1362,122 @@ section {
   padding: 0px;
 }
 
-.fromCoinBtn{
+.fromCoinBtn {
   width: 40% !important;
-    float: left;
-    background-color: transparent !important;
-    border-color: #0a3f20 !important;
-    color: #fff;
-    padding-top: 2% !important;
-    padding-bottom: 6% !important;
-    padding-left: 2% !important;
-    height: 10px !important;
-    max-height: -moz-fit-content !important;
-    max-height: fit-content !important;
-    min-height: -moz-fit-content !important;
-    min-height: fit-content !important;
-    display: flex !important;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    align-items: center;
-    align-content: flex-start;
-    cursor: pointer;
+  float: left;
+  background-color: transparent !important;
+  border-color: #fff !important;
+  color: #0a3f20;
+  padding-top: 2% !important;
+  padding-bottom: 6% !important;
+  padding-left: 2% !important;
+  height: 10px !important;
+  max-height: -moz-fit-content !important;
+  max-height: fit-content !important;
+  min-height: -moz-fit-content !important;
+  min-height: fit-content !important;
+  display: flex !important;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: flex-start;
+  cursor: pointer;
 }
 
-.toCoinBtn{
+.toCoinBtn {
   width: 40% !important;
-    float: left;
-    background-color: transparent !important;
-    border-color: #0a3f20 !important;
-    color: #fff;
-    padding-top: 2% !important;
-    padding-bottom: 6% !important;
-    padding-left: 2% !important;
-    height: 10px !important;
-    max-height: -moz-fit-content !important;
-    max-height: fit-content !important;
-    min-height: -moz-fit-content !important;
-    min-height: fit-content !important;
-    display: flex !important;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    align-items: center;
-    align-content: flex-start;
-    cursor: pointer;
+  float: left;
+  background-color: transparent !important;
+  border-color: #fff !important;
+  color: #0a3f20;
+  padding-top: 2% !important;
+  padding-bottom: 6% !important;
+  padding-left: 2% !important;
+  height: 10px !important;
+  max-height: -moz-fit-content !important;
+  max-height: fit-content !important;
+  min-height: -moz-fit-content !important;
+  min-height: fit-content !important;
+  display: flex !important;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: flex-start;
+  cursor: pointer;
 }
 
-.swapCoinLogo{
+.swapCoinLogo {
   width: 15%;
   height: auto;
   margin-right: 5%;
   margin-bottom: 3%;
 }
 
-.toCoinBtn span{
-  font-family: 'CircularMedium';
-  color: #0a3f20;
+.toCoinBtn span {
+  font-family: "CircularMedium";
+  color: #fff;
   font-size: 1.4em;
 }
 
-.fromCoinBtn span{
-  font-family: 'CircularMedium';
-  color: #0a3f20;
+.fromCoinBtn span {
+  font-family: "CircularMedium";
+  color: #fff;
   font-size: 1.4em;
 }
 
-.modal-dialog{
+.modal-dialog {
   max-width: 40vw !important;
   margin-top: 15vh !important;
 }
 
-body > div.fade.modal.show > div > div > div.modal-body.swapModal.space-y-20.pd-20 > div > div > div > input[type=text]{
-  border-color: transparent !important;
-  width: 100% !important;
-  font-family: 'CircularMedium' !important;
+body > div.fade.modal.show > div > div > div.modal-body.swapModal.space-y-20.pd-20 > div.coinsList > div > div > span{
+  color: #fff !important;
 }
 
-.jZvqdQ{
+.modal-backdrop.show {
+  opacity: 0.6 !important;
+  background-color: white !important;
+}
+
+body
+  > div.fade.modal.show
+  > div
+  > div
+  > div.modal-body.swapModal.space-y-20.pd-20
+  > div
+  > div
+  > div
+  > input[type="text"] {
+  border-color: transparent !important;
+  width: 100% !important;
+  font-family: "CircularMedium" !important;
+}
+
+.jZvqdQ {
   display: none !important;
 }
 
-.coinsList{
+.coinsList {
   display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    align-items: flex-start;
-    align-content: flex-start;
-    height: 40vh !important;
-    overflow: hidden;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  align-content: flex-start;
+  height: 40vh !important;
+  overflow: hidden;
 }
 
-.coinsScrollableList{
+.coinsScrollableList {
   width: 100%;
   height: 100%;
   overflow-y: scroll;
   display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    align-items: flex-start;
-    align-content: flex-start;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  align-content: flex-start;
 }
 
 .swapInFormWrapper .dropdown {
@@ -1438,7 +1503,7 @@ body > div.fade.modal.show > div > div > div.modal-body.swapModal.space-y-20.pd-
 .swapInFormWrapper .divider {
   background-color: transparent !important;
   color: #fff !important;
-  font-family: 'CircularMedium';
+  font-family: "CircularMedium";
   font-size: 0.7em !important;
   display: flex;
   display: flex !important;
@@ -1467,17 +1532,17 @@ body > div.fade.modal.show > div > div > div.modal-body.swapModal.space-y-20.pd-
 }
 
 .swapInFormWrapper .visible.menu.transition .item {
-  font-family: 'CircularMedium';
+  font-family: "CircularMedium";
   border-radius: 10px !important;
 }
 
 .maxswapIn {
   float: right;
-  color: #fff;
-  font-family: 'CircularMedium';
+  color: #0a3f20;
+  font-family: "CircularMedium";
   font-size: 1.5em;
-  background: #0a3f20;
-  box-shadow: 0px 0px 4px #0a3f20;
+  background: #fff;
+  box-shadow: 0px 0px 4px #fff;
   border-radius: 5px;
   padding: 1.2vh 3%;
 }
@@ -1489,41 +1554,41 @@ input::-webkit-inner-spin-button {
 }
 
 .swapInInput {
-  width: 30px !important;
+  width: 5vw !important;
   height: 5px !important;
   padding-top: 4% !important;
   padding-bottom: 4% !important;
   padding-left: 1px !important;
   padding-right: 1px !important;
   float: right;
-  font-family: 'CircularMedium' !important;
-  color: #0a3f20 !important;
+  font-family: "CircularMedium" !important;
+  color: #fff !important;
   font-size: 1.2em !important;
   margin-right: 5px;
   text-align: center !important;
-  border-color: #0a3f20 !important;
+  border-color: #fff !important;
 }
 
 .swapInInput::placeholder {
-  font-family: 'CircularMedium' !important;
-  color: #0a3f20 !important;
+  font-family: "CircularMedium" !important;
+  color: #fff !important;
   font-size: 1.2em !important;
 }
 
 .swapInInput:-ms-input-placeholder {
-  font-family: 'CircularMedium' !important;
-  color: #0a3f20 !important;
+  font-family: "CircularMedium" !important;
+  color: #fff !important;
   font-size: 1.2em !important;
 }
 
 .swapInInput::-ms-input-placeholder {
-  font-family: 'CircularMedium' !important;
-  color: #0a3f20 !important;
+  font-family: "CircularMedium" !important;
+  color: #fff !important;
   font-size: 1.2em !important;
 }
 
 .swapOutBox {
-  border: 1px solid #0a3f20;
+  border: 1px solid #fff;
   border-radius: 7px;
   height: fit-content;
   padding: 2% 2%;
@@ -1532,8 +1597,8 @@ input::-webkit-inner-spin-button {
 }
 
 .swapOutBoxTitle {
-  color: #0a3f20;
-  font-family: 'CircularMedium';
+  color: #fff;
+  font-family: "CircularMedium";
   font-size: 1.5em;
   margin-bottom: 3%;
 }
@@ -1547,8 +1612,8 @@ input::-webkit-inner-spin-button {
   width: fit-content !important;
   float: left;
   background-color: transparent !important;
-  border-color: #fff !important;
-  color: #fff;
+  border-color: #0a3f20 !important;
+  color: #0a3f20;
   padding-top: 2% !important;
   padding-bottom: 6% !important;
   padding-left: 2% !important;
@@ -1565,8 +1630,8 @@ input::-webkit-inner-spin-button {
 
 .swapOutFormWrapper .divider {
   background-color: transparent !important;
-  color: #fff !important;
-  font-family: 'CircularMedium';
+  color: #0a3f20 !important;
+  font-family: "CircularMedium";
   font-size: 0.7em !important;
   display: flex;
   display: flex !important;
@@ -1595,17 +1660,17 @@ input::-webkit-inner-spin-button {
 }
 
 .swapOutFormWrapper .visible.menu.transition .item {
-  font-family: 'CircularMedium';
+  font-family: "CircularMedium";
   border-radius: 10px !important;
 }
 
 .maxswapOut {
   float: right;
-  color: #fff;
-  font-family: 'CircularMedium';
+  color: #0a3f20;
+  font-family: "CircularMedium";
   font-size: 1.5em;
-  background: #0a3f20;
-  box-shadow: 0px 0px 4px #0a3f20;
+  background: #fff;
+  box-shadow: 0px 0px 4px #fff;
   border-radius: 5px;
   padding: 1.2vh 3%;
 }
@@ -1617,56 +1682,57 @@ input::-webkit-inner-spin-button {
 }
 
 /* Firefox */
-input[type=number] {
+input[type="number"] {
   -moz-appearance: textfield;
 }
 
 .swapOutInput {
-  width: 30px !important;
+  width: 5vw !important;
   height: 10px !important;
   padding-top: 4% !important;
   padding-bottom: 4% !important;
   padding-left: 1px !important;
   padding-right: 1px !important;
   float: right;
-  font-family: 'CircularMedium' !important;
-  color: #0a3f20 !important;
+  font-family: "CircularMedium" !important;
+  color: #fff !important;
   font-size: 1.2em !important;
   margin-right: 5px;
   text-align: center !important;
-  border-color: #0a3f20 !important;
+  border-color: #fff !important;
 }
 
 .swapOutInput::placeholder {
-  font-family: 'CircularMedium' !important;
-  color: #0a3f20 !important;
+  font-family: "CircularMedium" !important;
+  color: #fff !important;
   font-size: 1.2em !important;
 }
 
 .swapOutInput:-ms-input-placeholder {
-  font-family: 'CircularMedium' !important;
-  color: #0a3f20 !important;
+  font-family: "CircularMedium" !important;
+  color: #fff !important;
   font-size: 0.9em !important;
 }
 
 .swapOutInput::-ms-input-placeholder {
-  font-family: 'CircularMedium' !important;
-  color: #0a3f20 !important;
+  font-family: "CircularMedium" !important;
+  color: #fff !important;
   font-size: 1.2em !important;
 }
 
 .swapBtn {
-  background: #0a3f20;
-  box-shadow: 0px 0px 4px #0a3f20;
+  background: #fff;
+  box-shadow: 0px 0px 4px #fff;
   border-radius: 5px;
   border-width: 0px !important;
   width: 100%;
   margin-top: 3%;
-  font-family: 'CircularMedium';
+  font-family: "CircularMedium";
   padding-top: 2% !important;
   padding-bottom: 2% !important;
   margin-bottom: 5% !important;
   font-size: 2em !important;
+  color: #0a3f20;
 }
 
 .swapBtn:hover {
@@ -1681,7 +1747,7 @@ input[type=number] {
   width: 100%;
   height: fit-content !important;
   margin: 2% 0px 0px 0px !important;
-  background: #f1f1f1;
+  background: #0a3f20;
   border-radius: 10px;
   z-index: 90;
   padding: 2% 5%;
@@ -1693,9 +1759,13 @@ input[type=number] {
   align-items: center;
 }
 
+.modal-content{
+  background-color: #323232 !important;
+}
+
 .swappingV3BoxTitle {
-  font-family: 'CircularMedium';
-  color: #0a3f20;
+  font-family: "CircularMedium";
+  color: #fff;
   font-size: 2em;
   float: left;
   margin-bottom: 0px !important;
@@ -1703,16 +1773,16 @@ input[type=number] {
 
 .swappingV3Data {
   margin-top: 0px !important;
-  font-family: 'CircularMedium';
-  color: #0a3f20;
+  font-family: "CircularMedium";
+  color: #fff;
   font-size: 1.3em;
   float: right;
-  border: solid 1px #0a3f20;
+  border: solid 1px #fff;
   border-radius: 10px;
   padding: 2% 5%;
 }
 
-.diamondsContainer{
+.diamondsContainer {
   width: 100%;
   height: 100%;
   position: absolute;
@@ -1724,33 +1794,31 @@ input[type=number] {
   flex-wrap: wrap;
   align-content: flex-start;
   justify-content: center;
-  overflow: hidden ;
+  overflow: hidden;
 }
 
-.diamond{
-  width: 3vw;
-  height: 5vh;
-  
+.diamond {
+  width: 4.2vw;
+  height: 7.5vh;
 }
 
-#profilePage{
+#profilePage {
   background-color: #001309;
   width: 100vw;
   height: fit-content;
   padding-bottom: 2%;
 }
 
-.sideBar{
+.sideBar {
   border-right: solid 1px #f1f1f1;
   padding-top: 3% !important;
 }
 
-.profileLogoWrapper{
+.profileLogoWrapper {
   display: flex;
-
 }
 
-.profileLogoWrapper img{
+.profileLogoWrapper img {
   width: 60%;
   height: auto;
   filter: brightness(0) invert(1);
@@ -1758,69 +1826,68 @@ input[type=number] {
   margin-right: auto;
 }
 
-.profileContent{
+.profileContent {
   padding-top: 3%;
 }
 
-.profileCoverSection{
+.profileCoverSection {
   background-color: #fff;
   margin-left: auto;
   margin-right: auto;
   width: 95%;
   height: 40vh;
   border-radius: 10px;
-  background-image: url('https://www.btcwires.com/wp-content/uploads/Will-we-every-know-who-Satoshi-Nakamoto-is-1024x525.png');
+  background-image: url("https://www.btcwires.com/wp-content/uploads/Will-we-every-know-who-Satoshi-Nakamoto-is-1024x525.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center top;
   padding: 1%;
 }
 
-.coverEditIcon{
+.coverEditIcon {
   border-radius: 5px;
-  padding: .3rem 0.5rem;
+  padding: 0.3rem 0.5rem;
   border: solid 1px #fff;
   width: fit-content;
   height: auto;
 }
 
-.profileHeaderSection{
+.profileHeaderSection {
   width: fit-content;
   height: fit-content;
   margin-top: -8%;
   margin-left: auto;
   margin-right: auto;
   display: flex;
-    flex-direction: row;
-    align-items: center;
+  flex-direction: row;
+  align-items: center;
 }
 
-.profilePicture{
+.profilePicture {
   border-radius: 50%;
   width: 12vw;
   height: 12vw;
   border: solid 5px #fff;
-
 }
 
-.dataWrapper{
+.dataWrapper {
   width: 62vw;
   display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content:flex-end;
-    align-items: flex-end;
-    padding: 0px;
-    margin-top: 20%;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 0px;
+  margin-top: 20%;
 }
 
-.userNameWrapper h5{
+.userNameWrapper h5 {
   color: #fff;
-  font-family: 'CircularMedium';
+  font-family: "CircularMedium";
   font-size: 2em;
 }
 
-.editProfileBtn{
+.editProfileBtn {
   background-color: #fff;
   width: fit-content;
   height: fit-content;
@@ -1834,27 +1901,27 @@ input[type=number] {
   justify-content: center;
 }
 
-.editProfileBtn span{
-  color: #0a3f20 ;
-  font-family: 'CircularMedium';
+.editProfileBtn span {
+  color: #0a3f20;
+  font-family: "CircularMedium";
   font-size: 1.5em;
   margin-left: 5%;
 }
 
-.nameSection{
+.nameSection {
   display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    align-items: center;
-    width: fit-content;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 1%;
-    margin-bottom: 5%;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1%;
+  margin-bottom: 5%;
 }
 
-.userDataSection{
+.userDataSection {
   width: 95%;
   height: fit-content;
   border-radius: 10px;
@@ -1865,41 +1932,212 @@ input[type=number] {
   margin-bottom: 1%;
 }
 
-.userDataSectionTitle{
-  font-family: 'CircularMedium';
+.userDataSectionTitle {
+  font-family: "CircularMedium";
   font-size: 2.5em;
   color: #0a3f20;
 }
 
-.userBio{
-  font-family: 'CircularMedium';
+.userBio {
+  font-family: "CircularMedium";
   font-size: 2em;
   color: #000d02;
   font-weight: 500;
   margin-top: 2%;
 }
 
-.userDataRow{
+.userDataRow {
   margin-top: 1%;
   margin-bottom: 1%;
 }
 
-.userDataTitle{
-  font-family: 'CircularMedium';
+.userDataTitle {
+  font-family: "CircularMedium";
   font-size: 2em;
   color: #0a3f20;
   font-weight: 700;
 }
 
-.userData{
-  font-family: 'CircularMedium';
+.userData {
+  font-family: "CircularMedium";
   font-size: 1.8em;
   color: #000d02;
   font-weight: 500;
 }
 
+.sliderContainer {
+  width: 80vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5%;
+  position: relative;
+  z-index: 999;
+}
+
+.PartnerContainer {
+  background-color: #082d17;
+  height: fit-content;
+  border-radius: 10px;
+  height: 50vh;
+}
+
+
+
+.slick-slide{
+  padding-left: 1vw !important;
+  padding-right: 1vw !important;
+}
+
+.partnerLogoContainer {
+  background-color: #fff;
+  height: 50%;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.partnerDataContainer {
+  height: 50%;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.partnerTitle {
+  color: #fff;
+  font-family: "CircularMedium";
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.partnerDescription {
+  color: #fff;
+  font-family: "CircularMedium";
+  font-size: 1.2em;
+  font-weight: 400;
+  text-align: center;
+}
+
+.mobileMenuBtn{
+  display: none;
+}
+
+#roadmap{
+  position: relative;
+  z-index: 999;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.vertical-timeline-element-icon{
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex !important;
+    flex-direction: row !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.vertical-timeline-element-icon img{
+  width: 70%;
+  height: 40%;
+  
+}
+
+#roadmap > div > div > div > p{
+  font-family: 'CircularMedium';
+  color: #fff;
+  font-size: 1.2em;
+  font-weight: 400;
+}
 
 @media only screen and (max-width: 768px) {
+
+  .swappingBoxWrapper {
+    width: 90vw;
+    margin-top: 20vh !important;
+  }
+
+  .swapInInput{
+    width: 15vw !important;
+    height: 4.3vh !important;
+  }
+
+  .fromCoinBtn{
+    height: 4.3vh !important;
+  }
+
+  .toCoinBtn {
+    height: 4.3vh !important;
+  }
+
+  .swapOutInput{
+    width: 15vw !important;
+    height: 4.3vh !important;
+  }
+
+  .swappingV3Data{
+    font-size: 1.5em;
+    font-weight: 500;
+  }
+
+  .swappingV3GlassBox{
+    padding: 5%;
+  }
+
+
+  #roadmap{
+    margin-top: -10vh;
+    margin-bottom: 5vh;
+  }
+
+  .glassBox{
+    background-color: transparent;
+  }
+
+  .diamondsContainer{
+    flex-direction: column-reverse;
+  }
+
+  .diamond {
+    width: 10vw;
+    height: 5vh;
+  }
+
+  .mobileMenuBtn{
+    display: block;
+    position: absolute;
+    top: 5.5vw;
+    right: 4vw;
+  }
+  
+  .menu-wrap{
+    background-color: #2f2f2f !important;
+
+  }
+
+  .menu{
+    background-color: #2f2f2f !important;
+    
+  }
+
+
+
+  .item-text{
+    color: #fff;
+    font-family: 'CircularMedium';
+    font-size:2em;
+  }
+
   .headerLogo {
     padding-top: 3%;
     padding-left: 5%;
@@ -1917,7 +2155,7 @@ input[type=number] {
   .navBtn {
     position: absolute;
     top: 4vw;
-    right: 4vw;
+    right: 14vw;
     padding: 3% 5% !important;
   }
 
@@ -1927,6 +2165,10 @@ input[type=number] {
 
   .heroTextWrapper {
     margin-top: 20vh !important;
+  }
+
+  .partnersWrapper {
+    margin-top: 5% !important;
   }
 
   .sectionTitle {
@@ -1955,17 +2197,17 @@ input[type=number] {
     margin-bottom: 7%;
   }
 
-  .squareIcon{
+  .squareIcon {
     margin-left: auto !important;
     margin-right: auto !important;
-    transform: scale(1.1);
+    transform: scale(0.9);
   }
 
-  .squareTitle{
+  .squareTitle {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    font-size: 3em;
+    font-size: 2.6em;
   }
 
   .squareText {
@@ -1974,19 +2216,21 @@ input[type=number] {
     margin-left: auto;
     margin-right: auto;
     padding-right: 0px;
-    font-size: 1.8em;
+    font-size: 1.6em;
+    font-weight: 400;
+    line-height: 150%;
   }
 
   .howItWorksText {
     text-align: left;
-    font-size: 1.7em;
+    font-size: 1.5em;
     padding: 6% 5% !important;
-    line-height: 1.5em;
+    line-height: 150%;
     width: 90vw;
-    font-weight: 500;
+    font-weight: 400;
     margin-left: auto;
     margin-right: auto;
-    text-align: justify;
+    text-align: left;
   }
 
   .carousel-container {
@@ -1994,8 +2238,12 @@ input[type=number] {
     padding-right: 5% !important;
   }
 
-  .article{
-    margin-left: 6% !important;
+  .article {
+    margin-left: 0% !important;
+  }
+
+  .carousel-item-padding-40-px {
+    width: 90vw !important;
   }
 
   .heroSubtitle {
@@ -2077,16 +2325,16 @@ input[type=number] {
     width: 100% !important;
   }
 
-  .docsLink{
+  .docsLink {
     padding: 4% 7%;
     margin-top: 5%;
   }
 
-  #root > div > div.styles_ticker__-0UvZ > div{
+  #root > div > div.styles_ticker__-0UvZ > div {
     padding-bottom: 3% !important;
   }
 
-  .docsLink span{
+  .docsLink span {
     font-size: 1.2em;
   }
 
@@ -2151,11 +2399,12 @@ input[type=number] {
   }
 
   #signupWrapper {
-    height: 100vh;
+    height: fit-content;
   }
 
   .signUpFormWrapper {
     width: 95% !important;
+    box-shadow: 0px 0px 20px 10px #242424;
   }
 
   .formTitle {
@@ -2181,7 +2430,7 @@ input[type=number] {
   }
 
   .termsLabel {
-    font-size: 1em;
+    font-size: 1.1em;
   }
 
   .signinLink {
@@ -2200,8 +2449,6 @@ input[type=number] {
     font-size: 2em;
   }
 
-  
-
   #hero {
     box-shadow: 0px 5px 100px 80px #000 !important;
   }
@@ -2214,5 +2461,3 @@ input[type=number] {
     height: 80vw !important;
   }
 }
-
-
