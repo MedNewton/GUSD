@@ -322,8 +322,8 @@ section {
   -webkit-backdrop-filter: blur(2.5px);
   border-radius: 10px;
   border-radius: 20px;
-  width: 45%;
-  height: 70vh;
+  width: 40%;
+  height: 65vh;
   padding: 0px 1.5% 0% 3%;
   display: flex;
   flex-direction: column;
@@ -1362,6 +1362,52 @@ section {
   padding: 0px;
 }
 
+.percentageBox{
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  border: solid 1px #fff;
+  border-radius: 10px;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 1.5%;
+  padding: 0.5em;
+}
+
+.percentageBtn{
+  font-family: 'CircularMedium';
+  font-size: 2em;
+  color: #fff;
+  height: fit-content;
+  width: 25%;
+  padding: 3% 0px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.percentageBtn:hover{
+  background-color: #fff;
+  color: #0A3F20;
+}
+
+.avBox{
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 3%;
+}
+
+.avText{
+  font-family: 'CircularMedium';
+  font-size: 1.2em;
+  font-weight: 400;
+  color: #fff;
+}
+
 .fromCoinBtn {
   width: 40% !important;
   float: left;
@@ -2096,7 +2142,7 @@ input[type="number"] {
 
 
   #roadmap{
-    margin-top: -10vh;
+    margin-top: 0vh;
     margin-bottom: 5vh;
   }
 
@@ -2308,17 +2354,33 @@ input[type="number"] {
     visibility: hidden;
   }
 
-  .circlesWrapper {
-    visibility: hidden;
-    height: 0px !important;
+  .circlesWrapper{
+    height: fit-content;
+    padding-top: 5vh !important;
+    margin-bottom: -100vh !important;
   }
 
-  .circle1,
-  .circle2,
-  .circle3,
-  .circle4 {
-    display: none;
+
+  .circle1{
+    height: 80vh;
+    width: 80vh;
   }
+
+  .circle2{
+    height: 70vh;
+    width: 70vh;
+  }
+
+  .circle3{
+    height: 60vh;
+    width: 60vh;
+  }
+
+  .circle4{
+    height: 50vh;
+    width: 50vh;
+  }
+  
 
   .communityTextWrapper {
     margin-top: -30vh;
